@@ -183,7 +183,7 @@ def getPackages():
 # dependencies
 setup(name='codimension',
       description=getDescription(),
-      python_requires='>3.4, <3.10',
+      python_requires='>3.4, <3.12',
       long_description=getLongDescription(),
       # long_description_content_type does not really work so far
       # long_description_content_type='text/markdown',
